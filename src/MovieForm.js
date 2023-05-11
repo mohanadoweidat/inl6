@@ -4,8 +4,6 @@ import MovieFormInputs from "./MovieFormInputs";
 
 function MovieForm() {
   const [movies, setMovies] = useState([]);
-  const [title, setTitle] = useState("");
-  const [rating, setRating] = useState("0");
 
   function handleAddMovie(newMovie) {
     setMovies([...movies, newMovie]);
