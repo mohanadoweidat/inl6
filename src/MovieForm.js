@@ -39,12 +39,15 @@ function MovieForm() {
       <hr />
 
       <h2>Filmer</h2>
+     
 
       <MovieList movies={movies} onDelete={handleDeleteMovie} />
 
+     
       <div className="sorting-buttons">
-        <button onClick={handleSortByTitle}>Sortera efter titel</button>
-        <button onClick={handleSortByRating}>Sortera efter betyg</button>
+        <button className="btn btn-primary" onClick={handleSortByTitle}>Sortera efter titel</button>
+         <div className="space"></div>
+        <button className="btn btn-primary" onClick={handleSortByRating}>Sortera efter betyg</button>
       </div>
     </div>
   );
