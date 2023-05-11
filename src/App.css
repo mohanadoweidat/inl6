@@ -20,3 +20,11 @@
 .delete-movie-icon {
   cursor: pointer;
 }
+
+ .space{
+  margin: 10px;
+ }
+
+ .sorting-buttons{
+  margin: 10px;
+ }
